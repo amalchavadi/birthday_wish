@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday, My Love</title>
+    <title>Happy Birthday, Love!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>🎉 Happy Birthday, My Love! 🎉</h1>
-        <button id="surpriseButton">Click for a Surprise!</button>
-        <div class="message" id="message" style="display:none;">
-            ❤️ You are my sunshine, my happiness, and my everything. Happy Birthday, darling! ❤️
+        <h1 id="mainMessage" style="display: none;">🎉 Happy Birthday, My Love! 🎉</h1>
+        <div class="notepad" id="notepad" style="display: none;">
+            <p id="note"></p>
         </div>
     </div>
-    <div class="hearts"></div>
+    <div class="confetti" id="confetti"></div>
     <audio id="music" src="https://www.bensound.com/bensound-music/bensound-lovely.mp3" loop></audio>
     <script src="script.js"></script>
 </body>
 </html>
-
